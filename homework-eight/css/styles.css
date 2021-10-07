@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 50px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.home h1 {
+  margin-top: 30px;
+  color: black;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home p {
+  font-family: Helvetica;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.home .imageContainerHome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.home .imageContainerHome img {
+  width: 300px;
+  height: 400px;
+}
+
+.about {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.about h1 {
+  margin-top: 30px;
+  color: black;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about p {
+  font-family: Helvetica;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.about .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.about .imageContainer img {
+  width: 300px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 920px) {
+  .imageContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1400px;
+  }
+  .imageContainer img {
+    padding-bottom: 10px;
+  }
+}
+.project {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.project h1 {
+  margin-top: 30px;
+  color: black;
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.project p {
+  font-family: Helvetica;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+.project .imageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.project .imageContainer img {
+  width: 300px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 920px) {
+  .imageContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 1400px;
+  }
+  .imageContainer img {
+    padding-bottom: 10px;
+  }
+}
+.contact {
+  width: 100%;
+  padding-bottom: 50px;
+}
+.contact h1 {
+  font-family: "Helvetica";
+  text-align: center;
+  margin-top: 50px;
+}
+.contact .contactContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+}
+.contact .textInputs {
+  margin-bottom: 87px;
+}
+.contact .textInputs label,
+.contact input {
+  display: block;
+  color: black;
+  margin-top: 50px;
+}
+.contact .textInputs label {
+  margin-bottom: 29px;
+  font-family: dashiell-bright;
+  font-size: 20px;
+  color: black;
+}
+.contact .textInputs input {
+  width: 700px;
+  height: 50px;
+  border: solid 1px black;
+  padding: 0 20px;
+  font-family: dashiell-bright;
+  font-size: 20pt;
+}
+.contact .textInputsComments input {
+  width: 700px;
+  height: 250px;
+  border: solid 1px black;
+  padding: 0 20px;
+  font-family: dashiell-bright;
+  font-size: 20pt;
+}
+.contact label {
+  margin-bottom: 29px;
+  font-family: dashiell-bright;
+  font-size: 20px;
+  color: black;
+}
+.contact .subBtn {
+  width: 237px;
+  height: 83px;
+  padding: 20px 40px;
+  /* background-color: green; */
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 10px;
+  color: white;
+  font-family: dashiell-bright;
+  font-size: 14pt;
+  color: black;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}

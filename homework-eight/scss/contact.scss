@@ -1,0 +1,81 @@
+.contact {
+
+    width: 100%;
+    padding-bottom: 50px;
+
+    h1 {
+        font-family: 'Helvetica';
+        text-align: center;
+        margin-top: 50px;
+    }
+
+.contactContainer {
+    // background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+  
+  .textInputs {
+    margin-bottom: 87px;
+  }
+  
+  .textInputs label,
+  input {
+    display: block;
+    color: black;
+    margin-top: 50px;
+  }
+  
+  .textInputs label {
+    margin-bottom: 29px;
+    font-family: dashiell-bright;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .textInputs input {
+    width: 700px;
+    height: 50px;
+    border: solid 1px black;
+    padding: 0 20px;
+    font-family: dashiell-bright;
+    font-size: 20pt;
+  }
+  
+  .textInputsComments input {
+    width: 700px;
+    height: 250px;
+    border: solid 1px black;
+    padding: 0 20px;
+    font-family: dashiell-bright;
+    font-size: 20pt;
+  }
+  
+  label {
+    margin-bottom: 29px;
+    font-family: dashiell-bright;
+    font-size: 20px;
+    color: black;
+  }
+  .subBtn {
+    width: 237px;
+    height: 83px;
+    padding: 20px 40px;
+    /* background-color: green; */
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
+    font-family: dashiell-bright;
+    font-size: 14pt;
+    color: black;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
